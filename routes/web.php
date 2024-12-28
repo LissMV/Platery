@@ -18,3 +18,48 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+Route::get('/restaurants', function () {
+    return view('restaurants');
+})->name('restaurants');
+
+Route::get('/benefits', function () {
+    return view('beneficios');
+})->name('benefits');
+
+Route::get('/contactus', function () {
+    return view('contáctanos');
+})->name('contactus');
+
+Route::get('/functionP', function () {
+    return view('funcionamiento');
+})->name('functionP');
+
+Route::get('/campero', function () {
+    return view('campero');
+})->name('campero');
+
+
+Route::get('/pagos', function () {
+    return view('pagoprueba');
+})->name('pagos');
+
+Route::get('/carrito.html', function () {
+    return view('carrito');
+})->name('carrito');
+
+Route::get('/pago.html', function () {
+    return view('pagofinal');
+})->name('pagofinal');
+
+Route::get('/dashboard2', function () {
+    return view('dashboard2');
+})->name('dashboard2');
+
+Route::get('/ensaladacompra', function () {
+    return view('ensaladacompra');
+})->name('ensaladacompra');
+
+Route::get('/cheesecakecompra', function () {
+    return view('cheesecakecompra');
+})->name('cheesecakecompra');

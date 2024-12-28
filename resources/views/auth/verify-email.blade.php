@@ -5,7 +5,7 @@
 
     @if (session('status') == 'verification-link-sent')
         <div class="mb-4 font-medium text-sm text-green-600 dark:text-green-400">
-            {{ __('A new verification link has been sent to the email address you provided during registration.') }}
+            {{ __('Un nuevo vínculo de verificación ha sido enviado a tu dirección de correo electrónico.') }}
         </div>
     @endif
 

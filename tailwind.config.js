@@ -11,6 +11,18 @@ export default {
 
     theme: {
         extend: {
+            colors: {
+                PBlue: '#606c84',
+                POrange: '#7a3b35',
+                PLOrange: '#fa9b7b',
+                PCream: '#F9EEE2',
+                PDBlue: '#182F53',
+
+                // Campero
+                COrange: '#f79122' ,
+                CGreen: '#cdca4e' ,
+                CNude: '#fff3dc' ,
+            },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
